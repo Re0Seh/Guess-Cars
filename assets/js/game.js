@@ -1,40 +1,17 @@
-function readFile() {
-    const filePath = 'carnames.txt'; // Assuming the file is in the same directory
-    const reader = new FileReader();
-  
-    reader.onload = function(e) {
-      const content = e.target.result;
-      const lines = content.split('\n');
-      console.log('File content:', content); // Log the entire content
-      console.log('Lines array:', lines);
-    };
-  
-    // Read the content of the file at the specified path
-    fetch(filePath)
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`Failed to fetch file. Status: ${response.status}`);
-        }
-        return response.text();
-      })
-      .then(data => reader.readAsText(new Blob([data])))
-      .catch(error => console.error('Error:', error));
-  }
-  
-
-var images = ['juan.jpeg','toby.jpeg', 'bob.jpeg', 'jenna.jpeg', 'melissa.jpeg', 'jempa.jpeg', 'emma.jpeg', 'emily.jpeg', 'edward.jpeg', 'john.jpeg', 'Courtney.jpeg', '2009toyotacorolla.jpeg', 'william.jpeg', 'venessa.jpeg', 'danielle.jpeg', 'jeff.jpeg', 'susan.jpeg', 'samuel.jpeg', 'bill.jpeg', 'harris.jpeg', 'sarah.jpeg'];
+var images = ['BMW%207%20Series.jpeg','BMW_X5.jpeg','Cadillac_DeVille.jpeg','Citroen_DS.jpeg','Dodge_Monaco.jpeg','Ferrari_Testarossa.jpeg','Ford_Crown_Vic.jpeg','Ford_LTD.jpeg','Ford_Mustang_Foxbody.jpeg','Honda_Civic_Type_R.jpeg','Hummer_H1.jpeg','Jaguar_XJS.jpeg'];
+var carno = 12;
 
 var cards = document.querySelector('.cards');
 var yourCard = document.querySelector('.yourCard');
 
 images.forEach((img) => {
     var person = document.createElement('div')
-    person.innerHTML = `<img src="./assets/imgs/people/${img}"></img><br><h2>${img.split('.')[0]}</h2>`;
+    person.innerHTML = `<img src="https://raw.githubusercontent.com/Re0Seh/carimages/main/${img}"></img><br><h2>${img.split('.')[0]}</h2>`;
     person.classList.add('card');
     cards.appendChild(person);
 });
 
-var randomNumber = Math.floor(Math.random() * 24);
+var randomNumber = Math.floor(Math.random() * carno);
 var personToGuess = document.createElement('div');
 personToGuess.innerHTML = `<img src="./assets/imgs/people/${images[randomNumber]}"></img><br><h1>${images[randomNumber].split('.')[0]}</h1>`;
 yourCard.appendChild(personToGuess)
