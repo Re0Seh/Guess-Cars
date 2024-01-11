@@ -1,5 +1,5 @@
-var images = ['BMW 7 Series.jpeg','BMW X5.jpeg','Cadillac DeVille.jpeg','Citroen DS.jpeg','Dodge Monaco.jpeg','Ferrari Testarossa.jpeg','Ford Crown Vic.jpeg','Ford LTD.jpeg','Ford Mustang Foxbody.jpeg','Honda Civic Type R.jpeg','Hummer H1.jpeg','Jaguar XJS.jpeg','Lamborghini Countach.jpeg','Lexus GS300.jpeg','Mercedes C180.jpeg','Mitshubishi Lancer Evo VI.jpeg','Opel Manta.jpeg','Peugeot 205 GTI.jpeg','Subaru Impreza WRX.jpeg','Toyota Corolla.jpeg','Toyota GT86.jpeg','Toyota Hilux.jpeg','Volvo 850.jpeg','VW Golf Mk4.jpeg'];
-var carno = 24;
+var images = ['Alfa Romeo GT 1600.jpg','Alfa Romeo Spider.jpg','BMW 7 Series.jpg','BMW X5.jpg','Cadillac DeVille.jpg','Chevy K5 Blazer.jpg','Citroen DS.jpg','Datsun 240Z.jpg','Dodge Monaco.jpg','Ferrari Testarossa.jpg','Ford Crown Vic.jpg','Ford LTD.jpg','Ford Model A.jpg','Ford Mustang Foxbody.jpg','Holden Torana LX.jpg','Honda Civic Type R.jpg','Hummer H1.jpg','Jaguar XJS.jpg','Lamborghini Countach.jpg','Lexus GS300.jpg','Lotus Elan.jpg','Mercedes C180.jpg','Mini 1275 GT.jpg','Mitshubishi Lancer Evo VI.jpg','Mitsubishi Pajero.jpg','Opel Calibra.jpg','Opel Manta.jpg','Peugeot 205 GTI.jpg','Porsche Carrera GT.jpg','Subaru Impreza WRX.jpg','Toyota Corolla.jpg','Toyota GT86.jpg','Toyota Hilux.jpg','Volvo 850.jpg','VW Golf Mk4.jpg'];
+var carno = 35;
 
 var cards = document.querySelector('.cards');
 var yourCard = document.querySelector('.yourCard');
