@@ -25,7 +25,14 @@ document.querySelectorAll('.card').forEach((element) => {
         element.classList.remove('hover')
     }
     element.onclick = function () {
-        element.style.transition = 'all 0s'
-        element.style.visibility = 'hidden'
+        if (element.classList.contains('grayed-out')) {
+            // If the card is already grayed out, revert to its original state
+            element.classList.remove('grayed-out');
+        } else {
+            // If the card is not grayed out, apply the grayed-out effect
+            element.classList.add('grayed-out');
+        }
     }
-})
+});
+
+

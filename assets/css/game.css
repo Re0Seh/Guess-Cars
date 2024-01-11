@@ -52,3 +52,8 @@ body {
 .yourCard img {
     width: 100%;
 }
+
+.card.grayed-out {
+    filter: grayscale(100%);
+    background-color: #333; 
+}
