@@ -1,0 +1,24 @@
+BMW 7 Series
+BMW X5
+Cadillac DeVille
+Citroen DS
+Dodge Monaco
+Ferrari Testarossa
+Ford Crown Vic
+Ford LTD
+Ford Mustang Foxbody
+Honda Civic Type R
+Hummer H1
+Jaguar XJS
+Lamborghini Countach
+Lexus GS300
+Mercedes C180
+Mitshubishi Lancer Evo VI
+Opel Manta
+Peugeot 205 GTI
+Subaru Impreza WRX
+Toyota Corolla
+Toyota GT86
+Toyota Hilux
+Volvo 850
+VW Golf Mk4
