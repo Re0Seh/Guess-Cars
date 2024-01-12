@@ -19,22 +19,24 @@ body {
 
 .card {
     float: left;
-    background-color: rgb(233, 233, 233);
+    background-color: #424769;
     width: 10%;
     margin: 1%;
     padding: 1%;
     text-align: center;
     transition: ease-in-out 0.7s;
 	min-inline-size: 200px;
+    border-radius: 15px;
 
 }
 
 .cards img {
     width: 100%;
+    border-radius: 10px;
 }
 
 .hover {
-    background-color: orangered;
+    background-color: #7077A1;
     color: white;
     cursor: pointer;
     transition: ease-in-out 0.7s;
@@ -44,11 +46,48 @@ body {
     width: 20%;
     position: static;
     text-align: center;
-    background-color: rgb(228, 228, 228);
+    background-color: #424769;
     padding: 10px;
 	margin: auto;
+    border-radius: 15px;
 }
 
 .yourCard img {
     width: 100%;
+    border-radius: 10px;
+}
+
+.card.grayed-out {
+    filter: grayscale(100%);
+    background-color: #777777; 
+}
+
+.card.selected {
+    color: #F6B17A; /* Add your preferred styling for the selected card */
+}
+
+#title{
+    background-color: #e0e0ff;
+    max-width: 30%;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: center;
+    min-width: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#description{
+    background-color: #e0e0ff;
+    max-width: 30%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    min-width: 200px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: justify;
 }
