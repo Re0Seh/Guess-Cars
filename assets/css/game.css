@@ -24,7 +24,7 @@ body {
     margin: 1%;
     padding: 1%;
     text-align: center;
-    transition: ease-in-out 0.7s;
+    transition: ease-in-out 0.2s;
 	min-inline-size: 200px;
     border-radius: 15px;
 
@@ -39,7 +39,7 @@ body {
     background-color: #7077A1;
     color: white;
     cursor: pointer;
-    transition: ease-in-out 0.7s;
+    transition: ease-in-out 0.2s;
 }
 
 .yourCard {
