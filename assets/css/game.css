@@ -78,6 +78,7 @@ body {
     border-top-right-radius: 15px;
     font-size: large;
     font-weight: bold;
+    color: black;
 }
 
 #description{
@@ -90,4 +91,5 @@ body {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     text-align: justify;
+    color: black;
 }
